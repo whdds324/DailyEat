@@ -1,0 +1,80 @@
+<style>
+ 
+  #topgrid {
+     display: grid;
+ 	 grid-template-columns: 1fr 300px;
+ 	 	border-bottom:1px solid black;
+ 	 background-color:#606c88;
+ 	 
+ 	
+  }
+  
+  
+ 
+  #grid {
+     display: grid;
+ 	 grid-template-columns: 200px 1fr 1fr;
+ 	
+  }
+  
+  .leftmenu {
+  	 grid-column-start: 1;
+  	 grid-column-end: 2;
+  	 grid-row-start: 1;
+  	 grid-row-end: 3;   
+  	border-right:1px solid black;
+  background-color:#606c88;
+   
+    background-image: url("img/man.jpg");
+  	   background-repeat: no-repeat;
+		 background-size: contain;
+                 background-position: bottom;
+   
+  }
+  .main1 {
+  	grid-column-start: 2;
+  	 grid-column-end: 3;
+  	 grid-row-start: 1;
+  	 grid-row-end: 3;   
+  	border-right:1px solid black;
+  	   background-color:#606c88;
+  	
+  }
+  .main2 {
+  	grid-column-start: 3;
+  	grid-column-end: 4;
+  	grid-row-start: 1;
+  	grid-row-end: 2;  
+  	
+  	border-bottom:1px solid black;
+  	
+  	background-color:#606c88;
+  	
+
+		
+  	  
+   
+  }
+  
+  .main3 {
+  grid-column-start: 3;
+  	 grid-column-end: 4;
+  	 grid-row-start: 2;
+  	 grid-row-end: 3;   
+  	 background-color:#606c88;
+  	 
+  	 
+  }
+  h1 {
+  	  background-color:#606c88;
+  	  border-bottom:1px solid black;
+  	 font-size:45px;
+      text-align: center;
+    
+      margin:0;
+      padding:20px;
+     
+  }
+   
+    
+  </style>
